@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    height: 100vh;
+    background-color: rgb(59, 142, 148);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar-container{
+    background-color: whitesmoke;
+    width: 300px;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 8px 8px 7px 2px rgba(42, 42, 44, 0.2);
+    overflow: hidden;
+}
+.month-name{
+    margin: 10;
+
+    background-color: orangered;
+    padding: 20px ;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    
+    padding: 10px;
+}
+.day-name{
+    padding-top: 20px;
+}
+.day-no{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+
+}
+.year{
+    font-size: larger;
+    padding-bottom: 15px;
+}
